@@ -3,7 +3,7 @@
  <head> 
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>Our Project </title> 
+  <title>Major Final-year Project</title> 
   <style>
     :root {
       --spotify-green: #1DB954;
@@ -64,13 +64,62 @@
       text-decoration: none;
     }
 
+
+
+    body {
+      background-color: #121212;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      width: 80px;
+      
+    }
+
+    .card img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .card button {
+      background-color: #1db954;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #1ed760;
+      color: white;
+    }
+
   
   </style> 
  </head> 
  <body> 
   <header>
    Welcome to Our Project
-   
+  
   </header> 
   <div class="section"> 
    <img src="ansh.png" alt="Image 1"> <br>
@@ -80,7 +129,20 @@
    <img src="ansh1.png" alt="Image 2"><br>
    <button class="btn" ><a href="https://ianshvermagit.github.io/finds/" class="no">View</a></button>
   </div> 
+  <hr>
+  <center><h4> Developed By -</h4></center>
+  <div class="container">
+    <div class="card">
+      <img src="a.jpg" alt="Image 1" />
+      <button class="btn" ><a href="https://ianshvermagit.github.io/myprotfolio/" class="no">Portfolio</a></button>
+    </div>
+    <div class="card">
+      <img src="s.jpg" alt="Image 2" />
+      <button class="btn" ><a href="https://copy-ghost.github.io/Portfolio/" class="no">Portfolio</a></button>
+    </div>
+  </div>
+
   
-  
+ 
  </body>
 </html>
